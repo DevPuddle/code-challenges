@@ -16,3 +16,23 @@ function boolToWord( bool ){
       return "No"
     }       
   }
+
+//Given an array of integers.
+//Return an array, where the first element is the count of positives numbers and the second element is sum of negative numbers. 0 is neither positive nor negative.
+//If the input is an empty array or is null, return an empty array.
+
+//P: Function will receive an array of intergers.
+//R: This function will retrun array 
+//E: The first element is the sum of the positives in the inputed array 
+// The second element is the sum of all the negitive numbers from the inputed array.
+//P: function countPositivesSumNegatives(input) {
+// input.forEach(element => if(element % 2 === 0) {
+// element += element
+//} else {
+//    
+//})
+//}
+
+function countPositivesSumNegatives(input) {
+    return ?;
+}

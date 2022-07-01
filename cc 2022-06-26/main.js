@@ -15,7 +15,7 @@
 
 function remove (string) {
     if(string[string.length - 1] === '!') {
-     let change = string.slice(string.length - 1, string.length)
+     let change = string.slice(string[string.length - 2], 1)
      return change
     }
      return string;

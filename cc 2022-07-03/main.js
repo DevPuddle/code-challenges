@@ -29,3 +29,15 @@ P: function squareSum(array) {
     })
     return totalValue;
 }
+
+//The solution to the coding challenge.
+
+function squareSum(array) {
+    let sum = 0;
+    for (let i = 0; i < array.length; i++) {
+    sum += array[i] * array[i] 
+    }
+    return sum
+  }
+
+
